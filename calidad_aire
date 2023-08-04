@@ -93,24 +93,7 @@ rtc.read();
   dataFile.println("; ");
   dataFile.close();
  
-  Serial.print(rtc.day);
-  Serial.print("/");//month
-  Serial.print(rtc.month);
-  Serial.print("/");//day
-  Serial.print(rtc.year);
-  Serial.print("    ");  
-  Serial.print(rtc.hour);
-  Serial.print(":");//minute
-  Serial.print(rtc.minute);
-  Serial.print(":");//second
-  Serial.print(rtc.second);
-  Serial.print(";    ");//second
-  Serial.print(dataString3);
-  Serial.print("; ");
-  Serial.print(dataString4);
-  Serial.print("; ");
-  Serial.print(dataString5);
-  Serial.println("; ");
+
 
   delay(30000);   // Toma un dato cada 30 segundos
  
