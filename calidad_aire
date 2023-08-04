@@ -120,6 +120,6 @@ rtc.read();
     Serial.println("Error al abrir el archivo datalog.txt");
   }
  
-  
+  //HOLA COMO ESTAS
  
 }
